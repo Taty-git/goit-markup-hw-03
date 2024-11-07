@@ -92,7 +92,9 @@ nav {
     list-style-type: none;
     display: inline-flex;
     gap: 40px;
-    
+    margin-left: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .address-link {
     text-decoration: none;
@@ -111,6 +113,8 @@ nav {
 
 .main-block {
     background-color: #2E2F42;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .head-title {
     color: #FFFFFF;
@@ -130,6 +134,12 @@ nav {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-top: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .main-button:hover, .main-button:focus {
     background-color: #404BBF;
