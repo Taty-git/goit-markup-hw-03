@@ -150,6 +150,10 @@ nav {
 .feature {
    background-color: #FFFFFF;
    list-style-type: none;
+   display: inline-flex;
+   margin-left: 178px;
+   margin-right: 178px;
+   gap: 24px;
 }
 .feat-title {
     font-size: 20px;
@@ -157,6 +161,8 @@ nav {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
+    padding-top: ;
 }
 .feat-text {
     color: #434455;
@@ -167,9 +173,27 @@ nav {
 }
 .team-list {
     background-color: #F4F4FD;
+    max-width: 100%;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.team-list-bloks {
+    display: inline-flex;
+    list-style-type: none;
+    padding-bottom: 120px;
+    gap: 24px;
+    width: calc((100% - 40px) / 3);
+    flex-wrap: nowrap;   
 }
 .team-list-box {
     background-color: #FFFFFF;
+    width: 264px;
+    height: 380px;
+    text-align: center;
 }
 .team-title {
     color: #2E2F42;     
@@ -179,6 +203,9 @@ nav {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
+    
 }
 .team-name {
     color: #2E2F42;
@@ -186,6 +213,7 @@ nav {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
 
 }
 .team-text, .portfolio-text {
