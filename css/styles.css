@@ -21,15 +21,18 @@ ul {
     margin-left: 0px;
     margin-right: 0px;
     display: flex;
+    
 }
 
 header {
     background-color: #FFFFFF;
     border-bottom-color: #E7E9FC;
+    
 }
 
 nav {
-    display: inline-flex;       
+    display: inline-flex;
+                
 }
 
 .logo {
@@ -42,7 +45,9 @@ nav {
     color: #4d5ae5; 
     padding-left: 156px;
     padding-right: 76px;
-    }
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .logo:focus, .logo:active {
     color: #404bbf;
 }
@@ -64,6 +69,8 @@ nav {
     letter-spacing: 0.02em;
     display: inline-flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 } 
 .link {
@@ -71,9 +78,9 @@ nav {
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02e;
-    padding-left: 76px;
     padding-top: 24px;
-    padding-bottom: 24px;    
+    padding-bottom: 24px;
+       
           
 }
 .link:hover, .link:active, .link:focus {
@@ -82,6 +89,7 @@ nav {
 .had-address {
     font-style: normal;
     display: inline-block;
+    
 } 
 
 .address-nav {
@@ -95,6 +103,7 @@ nav {
     margin-left: 332px;
     padding-top: 24px;
     padding-bottom: 24px;
+        
 }
 .address-link {
     text-decoration: none;
