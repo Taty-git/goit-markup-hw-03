@@ -13,6 +13,9 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+}
+img {
+    display: block;
 } 
 .container {
     max-width: 100%;
@@ -20,7 +23,7 @@ ul {
     padding-right: 156px;
     margin-left: 0px;
     margin-right: 0px;
-    display: flex;
+    display: block;
     
 }
 
@@ -280,12 +283,13 @@ nav {
 }
 .foot {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 .conteiner-foot {
     padding-left: 156px;
     display: block;
-    padding-bottom: 100px;
-    padding-top: 100px;
     
 }
 .footer-text {
@@ -296,6 +300,7 @@ nav {
     letter-spacing: 0.02em;
     padding-top: 16px;
     width: 264px;
+    
   }
   .logo-foot {
     line-height: 1.17;
@@ -305,6 +310,8 @@ nav {
     font-size: 18px;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
     
   }
   .span-logo-foot {
