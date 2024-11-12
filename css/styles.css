@@ -168,7 +168,7 @@ nav {
     background-color: #404BBF;
 }
 .spase {
-    color: #FFFFFF;
+    visibility:hidden;
 }
 .feature {
    background-color: #FFFFFF;
@@ -177,6 +177,10 @@ nav {
    margin-left: 178px;
    margin-right: 178px;
    gap: 24px;
+}
+.feature-block {
+    display: flex;
+    gap: 24px;
 }
 .feat-title {
     font-size: 20px;
