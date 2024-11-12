@@ -89,12 +89,8 @@ nav {
     padding-top: 24px;
     padding-bottom: 24px;    
 }          
-.menu {    
-    margin-right: 40px;
-}
-.menu:last-child {
-    margin-right: 0;
-}
+
+
 .link:hover, .link:active, .link:focus {
     color: #404BBF;    
 }
@@ -134,8 +130,9 @@ nav {
 
 .main-block {
     background-color: #2E2F42;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
 }
 .head-title {
     color: #FFFFFF;
@@ -145,11 +142,12 @@ nav {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    
 }
 .main-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
-    border-color:#4D5AE5;
     font-size: 16px;
     cursor: pointer;
     font-weight: 500;
@@ -161,6 +159,10 @@ nav {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 .main-button:hover, .main-button:focus {
     background-color: #404BBF;
