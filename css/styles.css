@@ -27,9 +27,9 @@ img {
     width: 1158px;
 }
 
-.header {
+.haeder {
     background-color: #FFFFFF;
-    border-bottom: 1px solid #e7e9fc;    
+    border-bottom: 1px solid #e7e9fc;
 }
 
 nav {
@@ -75,7 +75,7 @@ nav {
     font-size: 16px;
     list-style-type: none;
     letter-spacing: 0.02em;
-    display: inline-flex;
+    display: flex;
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -87,9 +87,13 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02e;
     padding-top: 24px;
-    padding-bottom: 24px;
-       
-          
+    padding-bottom: 24px;    
+}          
+.menu {    
+    margin-right: 40px;
+}
+.menu:last-child {
+    margin-right: 0;
 }
 .link:hover, .link:active, .link:focus {
     color: #404BBF;    
