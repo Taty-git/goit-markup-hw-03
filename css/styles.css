@@ -24,20 +24,25 @@ img {
     margin-left: 0px;
     margin-right: 0px;
     display: block;
-    
+    width: 1158px;
 }
 
-header {
+.header {
     background-color: #FFFFFF;
-    border-bottom-color: #E7E9FC;
-    
+    border-bottom: 1px solid #e7e9fc;    
 }
 
 nav {
-    display: inline-flex;
-                
+    display: inline-flex;                
 }
-
+.navigation {
+    padding: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+}
+.cont-head {
+    display: flex;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -47,9 +52,9 @@ nav {
     text-transform: uppercase;
     color: #4d5ae5; 
     padding-left: 156px;
-    padding-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px
 }
 .logo:focus, .logo:active {
     color: #404bbf;
